@@ -1,0 +1,16 @@
+Package: Hello
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Clément", "Tillieux", , "clement.tillieux@student.uclouvain.be",
+    role = c("aut", "cre"))
+Description: 'Hello' says hello to the world.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Imports: 
+    stringr (>= 1.5.1)
